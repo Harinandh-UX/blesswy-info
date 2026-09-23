@@ -1,0 +1,235 @@
+.btn,
+.intro,
+section {
+    position: relative
+}
+
+.gift-btn::after,
+.gift-btn::before {
+    content: '';
+    bottom: 0;
+    background-color: #ffc506
+}
+
+* {
+    cursor: none
+}
+
+body {
+    font-family: monospace;
+    font-weight: 700;
+    margin: 0;
+    padding: 0
+}
+
+section {
+    height: 100vh;
+    color: #222;
+    display: grid;
+    place-content: center
+}
+
+section:first-child {
+    background: #fcc
+}
+
+section:nth-child(2) {
+    background: #7efff5
+}
+
+section:nth-child(3) {
+    background: #fffa65
+}
+
+section:nth-child(4) {
+    background: #ffaf40
+}
+
+section:nth-child(5) {
+    background: linear-gradient(#ffaf40, #45aaf2)
+}
+
+section:nth-child(6) {
+    background: linear-gradient(#45aaf2, #ff4d4d)
+}
+
+section:nth-child(7) {
+    background: #ff4d4d
+}
+
+.lerp-wrap {
+    vertical-align: middle;
+    margin-left: 1.25rem
+}
+
+.lerp-wrap span {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, .2) 0 52px 2.5rem -.438rem;
+    font-size: 50px;
+    padding: 1.875rem
+}
+
+@media (max-width:450px) {
+    .lerp-wrap span {
+        font-size: 25px
+    }
+
+    .circle,
+    .wave-box {
+        display: none
+    }
+
+    .boat {
+        width: 300px
+    }
+}
+
+@media (max-height:515px) {
+
+    .circle,
+    .wave-box {
+        display: none
+    }
+
+    .boat {
+        width: 300px
+    }
+}
+
+.intro {
+    left: 57px
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0 0 30px #ffff;
+    color: #000;
+    text-decoration: none;
+    transition: .3s
+}
+
+.left-hover,
+.right-hover {
+    position: absolute;
+    display: none;
+    text-shadow: none;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    transition: .3s;
+    top: 0
+}
+
+.left-hover {
+    right: 100%
+}
+
+.right-hover {
+    left: 1000
+}
+
+.btn:hover p {
+    display: block
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999
+}
+
+.gift-btn {
+    font-size: 45px;
+    background: 0 0;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    right: 7px;
+    transition: .5s
+}
+
+.gift-btn::after,
+.gift-btn::before,
+.wave,
+.wave-box {
+    position: absolute
+}
+
+.gift-btn::before {
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: .5s
+}
+
+.gift-btn:hover {
+    color: #1e1e2b;
+    transition-delay: .5s
+}
+
+.gift-btn:hover::before {
+    width: 100%
+}
+
+.gift-btn::after {
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: .4s;
+    z-index: -1
+}
+
+.gift-btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: #f0f8ff
+}
+
+.wave {
+    opacity: .3;
+    left: -900px;
+    background: #fff;
+    width: 200rem;
+    height: 200rem;
+    margin-left: -25rem;
+    margin-top: -25rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: 3s linear infinite drift;
+    z-index: 1;
+    top: 85%
+}
+
+.wave.-three {
+    animation: 5s linear infinite drift;
+    z-index: 2 !important;
+    opacity: .2
+}
+
+.wave.-two {
+    animation: 7s linear infinite drift;
+    opacity: .1;
+    z-index: 3 !important
+}
+
+.wave-box {
+    bottom: -190px;
+    z-index: -1
+}
+
+@keyframes drift {
+    from {
+        transform: rotate(360deg)
+    }
+}
