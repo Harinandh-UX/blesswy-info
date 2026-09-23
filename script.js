@@ -13,7 +13,7 @@ function animateCircles() {
          c += (l.y - c) * .3 }),
          requestAnimationFrame(animateCircles) }
 function rickRoll() {
-     window.open("https://youtu.be/dQw4w9WgXcQ") 
+     window.open("https://youtu.be/kw4tT7SCmaY?si=HFSNFykKmJfT9_7p") 
     }
      circles.forEach(function (e, c){
         e.x = 0,
