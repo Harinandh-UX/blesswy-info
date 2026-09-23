@@ -1,5 +1,5 @@
 const Locoscroll = new LocomotiveScroll({ el: document.querySelector("[data-scroll-container]"), smooth: !0, smartphone: { smooth: !0 } });
-var typed = new Typed(".auto-input", { strings: ["I am Blesswy", "I am Anu", "I am a student","I'm not a Whiz student ","I am a Girl", "I am not a weeb \uD83D\uDE44", "I am Batman", "I am 17 y/o", "Truth is, I just want a Porsche 911 GT one day"], typeSpeed: 100, backSpeed: 100, showCursor: !1, loop: !0 });
+var typed = new Typed(".auto-input", { strings: ["I am Blesswy", "I am Anu", "I am a student","I'm not a Whiz student ","I am a Girl", "I am not a weeb \uD83D\uDE44", "I am Batman", "I am 17 y/o", "I dream of owning a Porsche 911 GT."], typeSpeed: 100, backSpeed: 100, showCursor: !1, loop: !0 });
 const coords = { x: 0, y: 0 }, 
 circles = document.querySelectorAll(".circle"),
 colors = ["#ffb56b", "#fdaf69", "#f89d63", "#f59761", "#ef865e", "#ec805d", "#e36e5c", "#df685c", "#d5585c", "#d1525c", "#c5415d", "#c03b5d", "#b22c5e", "#ac265e", "#9c155f", "#950f5f", "#830060", "#7c0060", "#680060", "#60005f", "#48005f", "#3d005e"];
