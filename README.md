@@ -20,7 +20,7 @@
 
 ```python
 class OneSidedLove:
-    def __init__(self, name="[Name]"):
+    def __init__(self, name="Blesswy"):
         self.name = name
         self.feelings = float("inf")
         self.confessed = False
