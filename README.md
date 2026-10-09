@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌙 [Name]
+# 🌙 BLESSWY
 
 ### *a love story with one reader, and she doesn't know it yet*
 
