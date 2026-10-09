@@ -26,7 +26,7 @@
 
 
 
-> *"Blesswy, I love you the way the moon loves the sea, always reaching, never touching, content just to watch you shine. You'll never hear the poems my silence writes about you, or know how many times your name has been my quiet prayer. Still, I'll keep loving you from afar, because loving you is the only thing that has ever felt like home."*
+> *"Blesswy, I love you the way the moon loves the sea, always reaching, never touching, content just to watch you shine. You'll never hear the poems my silence writes about you, or know how many times your name has been my quiet prayer. Still, I'll keep loving you."*
 
 
 
