@@ -26,7 +26,7 @@
 
 
 
-> *"Blesswy, I love you the way the moon loves the sea, always reaching, never touching, content just to watch you shine. You'll never hear the poems my silence writes about you, or know how many times your name has been my quiet prayer. Still, I'll keep loving you."*
+> *"Blesswy, I love you the way the moon loves the sea, always reaching, never touching, content just to watch you shine. You where the poems that never written, or know how many times your name has been my quiet prayer. Still, I love you"*
 
 
 
@@ -106,3 +106,4 @@ if __name__ == "__main__":
 
 </div>
 
+​
