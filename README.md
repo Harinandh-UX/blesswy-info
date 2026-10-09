@@ -6,7 +6,7 @@
 
 
 
-### *a story with one reader,*
+### *a story with one reader*
 
 
 
